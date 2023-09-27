@@ -1,0 +1,93 @@
+/* External CSS style for the news website template */
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    border-radius: 0;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffc107; /* Yellow text color for links */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ffca28; /* Lighter yellow on hover */
+}
+
+.form-control {
+    border-radius: 25px; /* Rounded search input */
+}
+
+/* Microphone icon */
+#voice-search-icon {
+    cursor: pointer;
+}
+
+/* News section */
+#newsType {
+    background-color: #f6cd59; /* Yellow background color for news type */
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsdetails {
+    background-color: #cfcfcf; /* Light gray background for news details */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+/* Footer */
+.navbar-dark {
+    background-color: #343a40; /* Dark background color for footer */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Footer text */
+.navbar-dark h5 {
+    color: #ffc107; /* Yellow text color for footer */
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Custom styles for the voice search button */
+#voice-search-icon i {
+    font-size: 20px;
+}
+
+/* CSS for the Loading Spinner */
+#loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+/* CSS for the Breaking News Section */
+.breaking-news-heading {
+    color: #ffc107; /* Yellow text color */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#breaking-news marquee {
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+    background-color: #343a40; /* Dark background color */
+    padding: 5px;
+    border-radius: 5px;
+}
