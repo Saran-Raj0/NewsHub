@@ -32,7 +32,7 @@ if (isset($_POST['signup'])) {
 
         if ($insertStmt->execute()) {
             // Sign up successful, redirect to the login form
-            header("Location: New.html#signIn"); // Redirect to the login form on the same page
+            header("Location: register.html#signIn"); // Redirect to the login form on the same page
             exit();
         } else {
             echo "Error: " . $insertSql . "<br>" . $conn->error;
