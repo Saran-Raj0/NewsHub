@@ -27,7 +27,7 @@ if (isset($_POST['login'])) {
         $insertStmt->bind_param("ss", $email, $password);
         $insertStmt->execute();
         
-        header("Location: News2/anand.html"); // Redirect to home page on successful login
+        header("Location: index.html"); // Redirect to home page on successful login
     } else {
         echo "Invalid login credentials.";
     }
